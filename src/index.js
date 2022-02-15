@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './app';
 import reportWebVitals from './reportWebVitals';
+
+const peopleOption = [2, 3, 4, 5]
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App peopleOption={peopleOption} />
   </React.StrictMode>,
   document.getElementById('root')
 );

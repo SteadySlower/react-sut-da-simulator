@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+}
+
+.board {
+  flex-basis: 70%
+}
+
+.result {
+  flex-basis: 30%;
+}
